@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+}
+body{
+}
+.navbar1{
+    height: 50px ;
+    width: 100%;
+    /* background-color: lightgray; */
+    background-color: rgba(255, 255, 255, 0.678);
+    filter: blur(0.1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    
+}
+.navbar1 a{
+    /* font-size: 2rem; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+
+}
+.navbar1 button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.navbar1 a:nth-child(5){
+    color: red;
+}
+.navbar2{
+    height: 50px ;
+    width: 100%;
+    /* background-color: lightblue; */
+    background-color: rgba(255, 255, 255, 0.678);
+    filter: blur(0.3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.navbar2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+.navbar2 button{
+    height: 30px;
+    width: 150pxpx;
+    border: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.navbar2 a:nth-child(2){
+    color: red;
+}
+
+.navbar1 a:hover,.navbar2 a:hover{
+    background-color: lightgrey;
+padding: 8px 0px;
+}
+.logo{
+
+    img:nth-child(1){
+        height: 100px;
+        width: 130px;
+        position: absolute;
+        top: 0;
+    }
+    img:nth-child(2 ){
+        height: 100px;
+        width: 130px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+.img11{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    z-index: 9999999;
+}
+.in1{
+    padding-left: 30px;
+}
+.img12{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 245px;
+    left: 40px;
+    z-index: 9999999;
+}
+
+
+.title{
+    font-size: 3rem;
+    color: rgb(4, 4, 104);
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    right: 120px;
+    z-index: 1;
+}
+.subtitle{
+    font-size: 35px;
+    color: rgb(4, 4, 104);
+    /* text-transform: uppercase; */
+    /* font-weight: bold; */
+    position: absolute;
+    top: 160px;
+    right: 120px;
+    z-index: 1;
+}
+.form{
+    height: 500px;
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: 1;
+    
+
+}
+.box{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+
+}
+.box button{
+    height: 40px;
+    width: 290px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(31, 31, 88);
+
+}
+
+.formtitle{
+    /* position: absolute; */
+    display: flex;
+
+}
+.primaryform{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+    
+}
+.primaryform input:nth-child(1){
+        width: 300px;
+        height: 40px;
+    }
+    .primaryform input:nth-child(2){
+        width: 200px;
+        height: 40px;
+        left: -50px;
+    }
+span{
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+.secondaryform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    gap: 30px;
+    left: 0px;
+}
+.secondaryform input:nth-child(1){
+        width: 300px;
+        height: 40px;
+    }
+    .secondaryform select:nth-child(2){
+        width: 200px;
+        height: 40px;
+        left: 0px;
+    }
+.thirdform select:nth-child(2){
+     width: 300px;
+        height: 40px;
+        position: relative;
+        top: 70px;
+        left: 20px;
+    
+}
+.checkbox{
+    position: relative;
+    gap: 0px;
+    top: 100px;
+    left: 30px;
+    font-weight: bold;
+    color: rgb(123, 123, 235);
+}
+.checkbox :nth-child(3){
+    position: relative;
+    left: 40px;
+}
+.checkbox :nth-child(4){
+    position: relative;
+    left: 40px;
+}
+.checkbox :nth-child(8){
+    position: relative;
+    left: 40px;
+}
+.checkbox :nth-child(9){
+    position: relative;
+    left: 40px;
+}
+.checkbox input{
+    height: 20px;
+    width: 20px;
+
+} 
+.formbottom{
+    position: relative;
+    top: 115px;
+    display: flex;
+    /* gap: 300px; */
+}
+.formbottom :nth-child(1){
+    height: 45px;
+    width: ;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+    border: none;
+    background-color:orangered;
+    border-radius: 20%;
+}
+.formbottom :nth-child(2){
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 270px;
+    border: none;
+    background-color:rgb(20, 219, 20);
+    border-radius: 7%;
+}
+.formbase{
+    height: 100px;
+    width: 600px;
+    border: white solid;
+    background-color: white;
+    position: relative;
+    top: 140px;
+    z-index: 1;
+}
+.formbase p{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(12, 147, 209);
+}
+.part2{
+    height: 600px;
+    width: 1400px;
+    border: white solid;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    left: -100px;
+}
+.text h2{
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+
+
+}
+.iconpart1{
+    position: relative;
+    top: 60px;
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+}
+.icon1:hover{
+    background-color:lightgray;
+}
+.icon1{
+    height: 80px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.icon1 p{
+    position: relative;
+    top: 80px;
+    left: 5px;
+    font-weight: bold;
+}
+.icon1 i{
+    font-size: 3rem;
+    position: relative;
+    top: -40px;
+    left: 13px;
+}
+.iconpart2{
+    position: relative;
+    top: 150px;
+    display: flex;
+    gap: 110px;
+    align-items: center;
+    justify-content: center;
+}
+.icon2{
+    height: 80px;
+    width: 80px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+.icon2:hover{
+    background-color: lightgray;
+}
+.icon2 p{
+    position: relative;
+    top: 80px;
+    left: 5px;
+    font-weight: bold;
+}
+.icon2 i{
+    font-size: 3rem;
+    position: relative;
+    top: -65px;
+    left: 13px;
+}
+.i1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top:-10px;
+    left: 850px;
+}
+.i2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -10px;
+    left: 643px;
+}
+.i3{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: -10px;
+    left: 260px;
+}
+/* .iconpart2 bi-image-fill:nth-child(5){
+text-decoration: none;
+font-size: 5rem; */
+/* } */
+#img13{
+    position: absolute;
+    top: 1px;
+    left: 1055px;
+}
+.customercare{
+    position: relative;
+    top: 240px;
+    left: 240px;
+}
+.holidayplan{
+    height: 700px;
+    width: 100%;
+    border: 2px white solid;  
+    background-color: white;
+    position: relative;
+    top: 250px;
+}
+.holiday h1{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.content{
+    height: 590px;
+    width: 300px;
+    border: 2px  white;
+    background-color:whitesmoke;
+}
+.contentpart1{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.contentpart2{
+    display: flex;
+    gap: 100px;
+    position: relative;
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttomnav{
+    height: 80px;
+    width: 100%;
+    border: 2px white solid;  
+    background-color: darkblue;
+    position: relative;
+    top: 250px;
+    display: flex;
+gap: 20px;
+}
+.buttomnav h5{
+text-decoration: none;
+color: white;
+position: relative;
+left: 90px;
+top: 20px;
+}
+.buttomlogo{
+    height: 50px;
+    width: 50px;
+    border: solid;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 130px;
+    top: 10px;
+}
+.buttomlogo i{
+    font-size: 47px;
+    position: relative;
+    top: -13px;
+    left: -1px;
+
+}
+.buttomlogo img{
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+.buttomlogo img:nth-child(10){
+position: relative;
+top: -5px;
+}
+.buttom{
+    height: 400px;
+    width: 100%;
+    border: 2px white solid;
+    background-color: rgb(3, 3, 87);
+    position: relative;
+    top: 250px;
+    display: flex;
+    gap: 45px;
+}
+.contentbase{
+    height: 400px;
+    width: 300px;
+    border:;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+}
+.contentbase select{
+    border: none;
+    background-color:  rgb(3, 3, 87);
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.security{
+    height: 100px;
+    width: 100%;
+    border: ;
+    background-color:white;
+    position: relative;
+    top: 200px;
+}
+.security img{
+    position: relative;
+    /* top: 400px; */
+    left: 100px;
+
+
+}
